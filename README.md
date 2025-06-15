@@ -1,83 +1,184 @@
-## Exam Slot Booking System
+# 🌾 RuralRise: AI Powered Interview Assistant for Rural Youth
 
-The Exam Slot Booking System is a web-based platform specifically designed to streamline and simplify the exam scheduling process at our college. It addresses the complexities of coordinating large student populations with diverse schedules, enhancing efficiency and reducing manual workload for both students and administrators.
+## 📌 Project Overview
 
-## About
+**RuralRise** is an AI-powered web application designed to empower rural youth by improving their interview readiness and career development. It combines AI capabilities with curated learning resources to offer mock interviews, skill enhancement, resume building, and challenge-based assessments.
 
-The Exam Slot Booking System is an innovative solution for handling exam scheduling in educational institutions with a high volume of students and exams. This system allows students to book exam slots seamlessly while administrators can manage room assignments, monitor real-time booking statuses, and resolve potential conflicts. The system is powered by the MERN (MongoDB, Express, React, Node.js) stack and includes robust authentication and authorization features, making it secure and efficient for academic environments.
+---
 
-## Features
+## 🛠 Tech Stack
 
--User-friendly booking interface with real-time room availability updates.
+| Layer          | Technology                                  |
+|----------------|----------------------------------------------|
+| Frontend       | React JS                                     |
+| Styling        | Tailwind CSS                                 |
+| Backend        | Express (Node.js)                            |
+| Authentication | JWT (JSON Web Tokens)                        |
+| Database       | MongoDB                                      |
+| Python Backend | Flask                                        |
+| AI APIs        | FastAPI                                      |
+| AI Model       | Gemini AI                                    |
 
--Secure user authentication and role-based access control for both students and administrators.
+---
 
--Automated room assignment and slot allocation, reducing scheduling conflicts.
+## 👨‍💻 Team Members
 
--Administrative dashboard for monitoring booking patterns and adjusting slot availability.
+- Mukesh V  
+- Mukil Kumar V  
+- Aadhithya D  
+- Vinitha D  
+- Divya K  
 
--Dynamic booking window configuration to handle different exam schedules and session types.
+---
 
--Data encryption and JWT-based secure login system.
+## 🚀 Project Flow
 
-## Requirements
+1. **Login & Signup Page**
+   - Secure user registration and login for learners.
 
--Operating System: 64-bit OS (Windows 10 or Ubuntu) for full compatibility.
+2. **Home Page**
+   - Displays all core features of the platform with easy navigation.
 
--Backend: Node.js and Express for the API, with MongoDB as the database for secure data handling.
+3. **Mock Interview Page**
+   - AI-powered interview simulator.
+   - Choose domain, language, difficulty, and interview type (HR, Technical, Soft Skills).
+   - Get real-time feedback and score.
 
--Frontend: React for the user interface to ensure a responsive and dynamic booking experience.
+4. **Chatbot Page**
+   - AI-powered assistant chatbot.
+   - Ask career-related questions, interview tips, process insights, etc.
 
--Libraries and Frameworks: Use of JWT for secure user authentication and bcrypt for password encryption.
+5. **Upskill Page**
+   - Personalized resources for selected domains.
+   - Displays certifications, learning content (YouTube), and important topics.
 
--Development Environment: Recommended IDE is Visual Studio Code with extensions for debugging and version control.
+6. **Resume Builder Page**
+   - Choose from pre-designed resume templates.
+   - Fill out personal and professional details.
+   - Download the resume as a PDF.
 
--Additional Dependencies: Includes Mongoose for MongoDB, React Router for page navigation, and Nodemailer for email notifications.
+7. **Daily and Weekly Challenges**
+   - Daily & Weekly quizzes (MCQs).
+   - Questions based on aptitude, technical, HR, etc.
+   - Earn points and track performance.
 
+---
 
-## System Architecture
+## 🔗 Main Pages (Hyperlinks to Code Files)
 
-The architecture diagram below shows the main components of the Exam Slot Booking System, detailing the interaction between the front-end and back-end, and the flow of data between the database, server, and user interface.
+- Login Page ![Screenshot (69)](https://github.com/user-attachments/assets/f458bd13-95a7-4f28-99b0-5df6439e95cf)
 
-![Screenshot 2024-11-13 212859](https://github.com/user-attachments/assets/0425b58e-babb-4e8d-8562-d683e6eb395d)
+- Signup Page ![image](https://github.com/user-attachments/assets/9fb66bda-6c4c-4353-99fe-4c95b2b899f3)
 
+- Home Page ![Screenshot (70)](https://github.com/user-attachments/assets/e0712e5b-4273-4268-b11b-3d0a366c27fd)
 
-## Output
+- Mock Interview(Intstruction) ![Screenshot (79)](https://github.com/user-attachments/assets/c2c81743-2a45-4257-9ff5-3b9fa8299dd1)
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - LOGIN PAGE
+- Mock Interview (Multi Language Support)  ![image](https://github.com/user-attachments/assets/c6b70a51-ae22-4036-b569-5855be51df57) ![image](https://github.com/user-attachments/assets/f9936704-5041-4d4c-8e86-f38991bbedf9)
 
-
-The Login Page in the Exam Slot Booking System is a secure access point designed to authenticate both students and admins, directing each to their respective dashboards. This page features fields for username and password entry, with robust security measures in place, including password encryption and JSON Web Tokens (JWT) for session management. Upon login, admins gain access to a dashboard where they can oversee and manage room assignments, adjust exam slots, and monitor booking activity. Students, on the other hand, are directed to their booking interface, where they can view available exam slots, make reservations, and manage their bookings, ensuring a streamlined and user-friendly experience for both roles.
-
-
-![Screenshot (359)](https://github.com/user-attachments/assets/d7f94c60-864e-478c-a638-24713fc06cda)
-
-
-#### Output2 - ADMIN PAGE
-The Admin Page in the Exam Slot Booking System is a centralized dashboard that enables administrators to manage and oversee the entire exam scheduling process efficiently. This page allows admins to view real-time data on room availability, monitor slot bookings, and manage room assignments to avoid conflicts. Admins can adjust slot timings, set booking windows, and view booking patterns to accommodate varying student needs. With secure access and a user-friendly interface, the Admin Page streamlines tasks such as approving or rescheduling slots, providing a comprehensive toolset to ensure smooth and organized exam scheduling.
-
-![Screenshot (358)](https://github.com/user-attachments/assets/0f1c1871-87b9-4750-b2c6-60dd43fe8266)
-
-
-#### Output2 - STUDENT PAGE
-The Student Page in the Exam Slot Booking System is designed to give students an intuitive platform for managing their exam bookings. From this page, students can view available exam slots in real-time, select their preferred time slots, and receive instant booking confirmations. They also have access to their booking history, allowing them to review past or upcoming exams. The page provides updates on slot availability, ensuring students can make informed choices and avoid scheduling conflicts. Secure and user-friendly, the Student Page simplifies the booking process, making exam scheduling easy and accessible.
-
-![Screenshot (357)](https://github.com/user-attachments/assets/c6ce43f7-5186-48ac-9dc2-ad3feaad5de6)
-
-
-
-
-## Results and Impact
-The Exam Slot Booking System has significantly reduced administrative effort and student confusion around exam scheduling. By providing a streamlined platform for booking and managing exam slots, it has improved the accuracy and efficiency of the scheduling process and minimized conflicts over room assignments. The real-time booking updates ensure students can quickly see available slots, reducing the likelihood of double bookings.
-
-This project represents a step toward digital transformation in educational scheduling and sets the foundation for further enhancements in academic administrative technology.
-
-## References
-Gupta, N.S., et al., “Streamlined Scheduling Systems in Educational Institutions Using MERN Stack,” Educational Technology Journal, vol. 15, Apr. 2023.
-
-Kumar, R., and Singh, P., “Leveraging Technology for Optimized Resource Allocation in Educational Settings,” Tech Innovations in Education, vol. 9, no. 2, Mar. 2024.
+- Mock Interview(Evaluation) ![image](https://github.com/user-attachments/assets/a5d282ae-bd71-4e2a-9b70-99c6df93db2f) 
 
 
+
+- Chatbot ![Screenshot (73)](https://github.com/user-attachments/assets/7c895ba8-3105-47dd-ac8a-0e3630237a96)
+
+- Upskilling ![Screenshot (74)](https://github.com/user-attachments/assets/8404c66d-ecd5-400c-a4f7-a15579847f1d)
+
+- Resume Builder(Template) ![Screenshot (76)](https://github.com/user-attachments/assets/2f1b5261-9914-40e2-a67c-2d61b2087b74)
+- Resume Builder ![Screenshot (77)](https://github.com/user-attachments/assets/42c1a49f-7b9b-4de2-8dc0-ebfe82ccb1fa)
+
+
+- Daily Challenges and Weekly Challenges ![Screenshot (78)](https://github.com/user-attachments/assets/c97bf616-2c35-4b1d-9f62-8a4c76bc04db)
+
+---
+
+## 📦 How to Run the Project
+
+### 🧩 Frontend (React)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+### Backend (Node + MongoDB)
+```bash
+cd backend
+npm install
+npm start
+```
+### .env should contain:
+```
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_jwt_secret
+PORT=8000
+```
+## 🧠 Python AI Server
+### 1️⃣ Mock Interview API (Flask)
+```bash
+cd server
+python mock_interview_api.py
+```
+### 2️⃣ Chatbot API (FastAPI)
+```bash
+cd server
+python -m uvicorn train_model_api:app --reload --port 5000
+```
+## 👤 Sample Guest Login
+
+You can use the following credentials to test the platform:
+
+- **Username:** mukesh  
+- **Password:** vinitha
+  
+## 📁 Folder Structure - RuralRise
+
+| Path                                         | Description                                      |
+|----------------------------------------------|--------------------------------------------------|
+| `frontend/`                                   | Frontend React application                       |
+| └── `src/`                                    | Source folder                                    |
+| └── `assets/images/`                          | Static images and logos                          |
+| └── `components/navigation/Layout.jsx`        | Layout component for page structure              |
+| └── `pages/auth/`                             | Login and signup pages                           |
+| └── `pages/chatbot/`                          | AI chatbot interface                             |
+| └── `pages/daily/`                            | Daily/Weekly challenges                          |
+| └── `pages/home/`                             | Homepage and feature highlights                  |
+| └── `pages/mock/`                             | Mock interview trainer                           |
+| └── `pages/resume/`                           | Resume builder interface                         |
+| └── `pages/upskill/`                          | Upskilling content and resources                 |
+| └── `App.jsx`                                 | Root React component                             |
+| └── `index.html`                              | HTML entry point                                 |
+| `tailwind.config.js`                          | Tailwind CSS configuration                       |
+
+| Path                                         | Description                                      |
+|----------------------------------------------|--------------------------------------------------|
+| `backend/`                                    | Backend Node.js server                           |
+| └── `controllers/auth.controller.js`          | Authentication logic                             |
+| └── `db/connectMongoDB.js`                    | MongoDB connection setup                         |
+| └── `middleware/protectRoute.js`              | JWT-based route protection                       |
+| └── `models/user.model.js`                    | Mongoose schema/model for users                  |
+| └── `routes/auth.route.js`                    | Authentication-related routes                    |
+| └── `.env`                                     | Environment variable configuration               |
+| └── `server.js`                               | Entry point for the backend server               |
+
+| Path                                         | Description                                      |
+|----------------------------------------------|--------------------------------------------------|
+| `server/`                                     | AI services (Python-based)                       |
+| └── `app.py`                                  | Base FastAPI app (if needed)                     |
+| └── `mock_interview_api.py`                   | Flask-based AI mock interview API                |
+| └── `train_model_api.py`                      | FastAPI-powered chatbot training/interaction     |
+
+### ✅ Summary of Features
+🔐 JWT-based User Authentication
+
+🧠 AI Interview Simulation & Evaluation
+
+🤖 Smart Chatbot for Interview Prep
+
+📚 Curated Upskilling Suggestions
+
+📄 Resume Generation & PDF Export
+
+🏆 Daily & Weekly Coding/MCQ Challenges
 
 
